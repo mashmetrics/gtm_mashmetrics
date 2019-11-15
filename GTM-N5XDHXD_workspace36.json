@@ -1,0 +1,2238 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2019-11-14 04:52:35",
+    "containerVersion": {
+        "path": "accounts/2026468171/containers/9223705/versions/0",
+        "accountId": "2026468171",
+        "containerId": "9223705",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/2026468171/containers/9223705",
+            "accountId": "2026468171",
+            "containerId": "9223705",
+            "name": "www.publicversion.com - Cross-Domain-EngagmentTimer",
+            "publicId": "GTM-N5XDHXD",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1573698576812",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/2026468171/containers/9223705/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "tagId": "17",
+                "name": "MAIN-MMFW - EVENT - GA - ABR Goal",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Interaction Hit - Adjusted Bounce Rate"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{MMFW - CONSTANT - Main Google Analytics Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{MMFW - VALUE - DL - Engagement Timer Seconds}}s"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Page URL}}"
+                    }
+                ],
+                "fingerprint": "1573698461700",
+                "firingTriggerId": [
+                    "27",
+                    "30"
+                ],
+                "tagFiringOption": "ONCE_PER_LOAD",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "tagId": "2",
+                "name": "MAIN-MMFW - EVENT - GA - All Form Submits",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "All Form Submit"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{MMFW - CONSTANT - Main Google Analytics Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "ID:{{Form ID}} - CLASS:{{Form Classes}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "TEXT: {{Form Text}} - TARGET:{{Form Target}} - URL: {{Form URL}}"
+                    }
+                ],
+                "fingerprint": "1528571247657",
+                "firingTriggerId": [
+                    "7"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "tagId": "18",
+                "name": "MAIN-MMFW - EVENT - GA - Contact Link Clicks",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Contact Link Click"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{MMFW - CONSTANT - Main Google Analytics Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{MMFW - TRANSFORM - LU - Link Type}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{MMFW - VALUE - CJ - Click URL No Protocol}}"
+                    }
+                ],
+                "fingerprint": "1559064625544",
+                "firingTriggerId": [
+                    "8"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "tagId": "22",
+                "name": "MAIN-MMFW - EVENT - GA - Engagement Timer Full",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Page Timer"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{MMFW - CONSTANT - Main Google Analytics Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{MMFW - VALUE - DL - Engagement Timer Seconds}}s"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Page URL}}"
+                    }
+                ],
+                "fingerprint": "1573698414122",
+                "firingTriggerId": [
+                    "28",
+                    "29"
+                ],
+                "tagFiringOption": "UNLIMITED",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "tagId": "4",
+                "name": "MAIN-MMFW - EVENT - GA - File Download",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "File Downloads"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{MMFW - CONSTANT - Main Google Analytics Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{MMFW - VALUE - CJ - Click File Extension}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{MMFW - VALUE - CJ - Click Filename}}"
+                    }
+                ],
+                "fingerprint": "1528571247659",
+                "firingTriggerId": [
+                    "9"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "tagId": "19",
+                "name": "MAIN-MMFW - EVENT - GA - Outbound Link Click",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Outbound Link Click"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{MMFW - CONSTANT - Main Google Analytics Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{MMFW - VALUE - Element - Click Hostname}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Click URL}}"
+                    }
+                ],
+                "fingerprint": "1559064625547",
+                "firingTriggerId": [
+                    "26"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "tagId": "20",
+                "name": "MAIN-MMFW - EVENT - GA - Scroll Tracking Goal",
+                "type": "ua",
+                "priority": {
+                    "type": "INTEGER",
+                    "value": "500"
+                },
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Scroll Tracking - v2"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{MMFW - CONSTANT - Main Google Analytics Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{Scroll Depth Threshold}}%"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Page URL}}"
+                    }
+                ],
+                "fingerprint": "1573698430473",
+                "firingTriggerId": [
+                    "17"
+                ],
+                "tagFiringOption": "UNLIMITED",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "tagId": "7",
+                "name": "MAIN-MMFW - EVENT - GA - YouTube Video Tracking",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Video Performance"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{MMFW - CONSTANT - Main Google Analytics Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "YouTube: {{Video Title}} - {{Video URL}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{MMFW - TRANSFORM - LU - YouTube Events}}"
+                    }
+                ],
+                "fingerprint": "1528571247662",
+                "firingTriggerId": [
+                    "6"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "tagId": "21",
+                "name": "MMFW - CODE - COMM - Page Engagement Timer",
+                "type": "html",
+                "priority": {
+                    "type": "INTEGER",
+                    "value": "8000"
+                },
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script id=\"gtm-mip-engagement-timer\" type=\"text/javascript\">\n// originally created by LunaMetrics - 2016\n    (function(document, window, undefined) {\n      \n      // Cross-browser compliant event listener\nfunction addEvent(el, evt, fn) { if (el.addEventListener) { el.addEventListener(evt, fn); } else if (el.attachEvent) { el.attachEvent('on' + evt, function(evt) { fn.call(el, evt); }); } else if (typeof el['on' + evt] === 'undefined' || el['on' + evt] === null) { el['on' + evt] = function(evt) { fn.call(el, evt); }; } } \nfunction removeEvent(el, evt, fn) { if (el.removeEventListener) { return el.removeEventListener(evt, fn); } if (el.detachEvent) { return el.detachEvent('on' + evt, fn); } if (el['on' + evt] === fn) { return el['on'] = null; } }; \n      \n      \n        var counter = 0;\n        var resetTimeoutEvents = ['mousemove', 'touchstart', 'scroll', 'keydown'];\n        var engagementInterval,\n            engagementTimeout,\n            hidden, \n            visibilityChange;\n    \n        // Vendor fill\n        if (typeof document.hidden !== \"undefined\") {\n    \n          // Opera 12.10 and Firefox 18 and later support \n          hidden = \"hidden\";\n          visibilityChange = \"visibilitychange\";\n          \n        } else if (typeof document.mozHidden !== \"undefined\") {\n            \n          hidden = \"mozHidden\";\n          visibilityChange = \"mozvisibilitychange\";\n          \n        } else if (typeof document.msHidden !== \"undefined\") {\n            \n          hidden = \"msHidden\";\n          visibilityChange = \"msvisibilitychange\";\n          \n        } else if (typeof document.webkitHidden !== \"undefined\") {\n            \n          hidden = \"webkitHidden\";\n          visibilityChange = \"webkitvisibilitychange\";\n          \n        }\n    \n        setEngagementTimeout();\n        registerTimeoutEvents();\n        setEngagementInterval();\n    \n        if(visibilityChange) {         \n          addEvent(document, visibilityChange, function() {\n            clearInterval(engagementInterval);    \n            if(!document[hidden]) {    \n              setEngagementInterval();   \n            }   \n          });  \n        } else {        \n          addEvent(window, 'blur', function() {    \n            clearInterval(engagementInterval);    \n          });    \n          addEvent(window, 'focus', function() {    \n            clearInterval(engagementInterval);\n            setEngagementInterval();    \n          });    \n        }\n    \n        function registerTimeoutEvents() {    \n          for(i = resetTimeoutEvents.length; i > -1; i--) {    \n            var _event = resetTimeoutEvents[i];\n            addEvent(window, _event, resetEngagementTimeout);    \n          }    \n        }\n    \n        function setEngagementInterval() {    \n          engagementInterval = setInterval(function() {    \n            counter++;\n            window['dataLayer'].push({\n              'event': 'engagementTimer',\n              'attributes': {\n                'counter': counter * 15\n              }\n            });    \n          }, Number({{MMFW - CONFIG - Engagement Timer Interval Milliseconds}}) );    \n        }\n    \n        function setEngagementTimeout() {            \n          engagementTimeout = setTimeout(function() {            \n            clearInterval(engagementInterval);\n            engagementInterval = false;    \n          }, Number({{MMFW - CONFIG - Engagement Timer Idle Milliseconds}}) + 1 );    \n        }\n    \n        function resetEngagementTimeout() {    \n          // Clear our events\n          for(i = resetTimeoutEvents.length; i > -1; i--) {    \n            var _event = resetTimeoutEvents[i];\n            removeEvent(window, _event, resetEngagementTimeout);    \n          }    \n          setTimeout(function() {    \n            // Re-register our idle reset events in one seconds\n            registerTimeoutEvents();    \n          }, 1500);\n    \n          if(!engagementInterval) {\n    \n            setEngagementInterval();\n    \n          }\n    \n          clearTimeout(setEngagementTimeout);\n          setEngagementTimeout();\n    \n        }\n\n    })(document, window);\n</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1573698499734",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "tagId": "10",
+                "name": "MMFW - TAG - GA - PV - Main Profile",
+                "type": "ua",
+                "priority": {
+                    "type": "INTEGER",
+                    "value": "10000"
+                },
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_PAGEVIEW"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{MMFW - CONSTANT - Main Google Analytics Settings}}"
+                    }
+                ],
+                "fingerprint": "1573698488086",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "teardownTag": [
+                    {
+                        "tagName": "MMFW - CODE - COMM - Page Engagement Timer"
+                    }
+                ],
+                "tagFiringOption": "UNLIMITED",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "triggerId": "5",
+                "name": "GTM - ACT - Scroll Tracking",
+                "type": "SCROLL_DEPTH",
+                "fingerprint": "1528571247615",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "verticalThresholdUnits",
+                        "value": "PERCENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "verticalThresholdsPercent",
+                        "value": "10,25,50,75,100"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "verticalThresholdOn",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "horizontalThresholdOn",
+                        "value": "false"
+                    }
+                ]
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "triggerId": "6",
+                "name": "GTM - ACT - YouTube Playback",
+                "type": "YOU_TUBE_VIDEO",
+                "fingerprint": "1528571247615",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "progressThresholdsPercent",
+                        "value": "10,25,50,75,90,100"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "captureComplete",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "captureStart",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "fixMissingApi",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "radioButtonGroup1",
+                        "value": "PERCENTAGE"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "capturePause",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "captureProgress",
+                        "value": "true"
+                    }
+                ]
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "triggerId": "7",
+                "name": "MMFW - ACT - Form Submit ex FB",
+                "type": "FORM_SUBMISSION",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Form ID}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "fb"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "TEMPLATE"
+                },
+                "checkValidation": {
+                    "type": "TEMPLATE"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1528571247616"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "triggerId": "8",
+                "name": "MMFW - CLK - Click to 'tel' Or 'mailto' Protocol",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{MMFW - VALUE - Element - Click Protocol}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "mailto|tel"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "autoEventFilter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ".*"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "true"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1528571247618"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "triggerId": "9",
+                "name": "MMFW - CLK - File Extension Is PDF, XLS, DOC, or TXT",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{MMFW - VALUE - CJ - Click File Extension}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "pdf|docx?|xlsx?|txt"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "autoEventFilter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ".*"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "true"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1528571247620"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "triggerId": "26",
+                "name": "MMFW - CLK - Outbound Link",
+                "type": "CLICK",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{MMFW - FUNCTION - CJ - Is Outbound Click URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1559064625486"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "triggerId": "27",
+                "name": "MMFW - DLE - ABR Goal",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "engagementTimer"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{a - CONFIG - ABR}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "abr"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1559064625492"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "triggerId": "28",
+                "name": "MMFW - DLE - Engagement Timer - LESS ABR",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "engagementTimer"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{a - CONFIG - ABR}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "hit"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1559064625493"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "triggerId": "29",
+                "name": "MMFW - DLE - Engagement Timer- GTREQL ABR",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "engagementTimer"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{a - CONFIG - ABR}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "abr"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1559064625493"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "triggerId": "30",
+                "name": "MMFW - DLE - SuperABR Goal",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "engagementTimer"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{a - CONFIG - ABR}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "superabr"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1559064625494"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "triggerId": "31",
+                "name": "MMFW - PV - ClientIDLoaded",
+                "type": "WINDOW_LOADED",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{MMFW - VALUE - CJ - ClientID}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "false"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1559064625498"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "triggerId": "17",
+                "name": "MMFW - Scroll Depth Goal Trigger",
+                "type": "SCROLL_DEPTH",
+                "fingerprint": "1528571247632",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "verticalThresholdUnits",
+                        "value": "PERCENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "verticalThresholdsPercent",
+                        "value": "{{a - CONFIG_Scroll Depth Goal}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "verticalThresholdOn",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "horizontalThresholdOn",
+                        "value": "false"
+                    }
+                ]
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "39",
+                "name": "MMFW - CONFIG - Engagement Timer Idle Milliseconds",
+                "type": "c",
+                "notes": "https://www.lunametrics.com/labs/recipes/engagement-timer/",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "44000"
+                    }
+                ],
+                "fingerprint": "1560324408056",
+                "formatValue": {}
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "40",
+                "name": "MMFW - CONFIG - Engagement Timer Interval Milliseconds",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "15000"
+                    }
+                ],
+                "fingerprint": "1559064625524"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "41",
+                "name": "MMFW - CONFIG - Engagement Timer Limit Seconds",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "1800"
+                    }
+                ],
+                "fingerprint": "1560324525265",
+                "formatValue": {}
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "42",
+                "name": "MMFW - CONSTANT - Framework Version",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "MMFW - 031219"
+                    }
+                ],
+                "fingerprint": "1559064625526",
+                "formatValue": {}
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "43",
+                "name": "MMFW - CONSTANT - Main Google Analytics Settings",
+                "type": "gas",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useHashAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "decorateFormsAutoLink",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "autoLinkDomains",
+                        "value": "{{a - CONFIG_Enter Your Domains}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieDomain",
+                        "value": "auto"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useEcommerceDataLayer",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "fieldsToSet",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "useBeacon"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "allowLinker"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "anonymizeIp"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "dimension",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "6"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{MMFW - TRANSFORM - Dayparting Definition}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "7"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{MMFW - TRANSFORM - LU - WeekdayNum}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "8"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{MMFW - VALUE - CJ - Timestamp}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "9"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{MMFW - VALUE - CJ - SessionID}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "10"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{MMFW - VALUE - CJ - ClientID}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "11"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{Container ID}} - {{Container Version}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "12"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{Page Hostname}}{{Page Path}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{a - ACCOUNT_GA_TRACKING_ID}}"
+                    }
+                ],
+                "fingerprint": "1566714739543"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "44",
+                "name": "MMFW - FUNCTION - CJ - Engagement Timer Is Greater Than Limit",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\n    \n    if({{MMFW - VALUE - DL - Engagement Timer Seconds}} > {{MMFW - CONFIG - Engagement Timer Limit Seconds}}) {\n        \n        return true;\n        \n    }\n    \n    return false;\n    \n}"
+                    }
+                ],
+                "fingerprint": "1559064625534"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "5",
+                "name": "MMFW - FUNCTION - CJ - Is Outbound Click URL",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\n  \n  if ({{MMFW - VALUE - Element - Click Hostname}}.indexOf({{MMFW - VALUE - CJ - Page Domain Name}}) === -1) {\n   \n    return true;\n    \n  }\n  \n  return false;\n  \n}"
+                    }
+                ],
+                "fingerprint": "1528571247622"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "15",
+                "name": "MMFW - TRANSFORM - Dayparting Definition",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\n    try {\n        var date = new Date();\n        var hours = date.getHours();\n        if ( hours < 2 ) {\n            return 'Midnight - 23-02';\n        } else if ( hours >= 2 && hours < 6 ) {\n            return 'Graveyard - 02-06';\n        } else if ( hours >= 6 && hours < 9 ) {\n            return 'Early Morning - 06-09';\n        } else if ( hours >= 9 && hours < 11 ) {\n            return 'Late Morning - 09-11';\n        } else if ( hours >= 11 && hours < 13 ) {\n            return 'Midday - 11-13';\n        } else if ( hours >= 13 && hours < 17 ) {\n            return 'Afternoon - 13-17';\n        } else if ( hours >= 17 && hours < 21 ) {\n            return 'Evening - 17-21';\n        } else if ( hours >= 21 && hours < 23 ) {\n            return 'Night - 21-23';\n        } else if ( hours >= 23 && hours < 24 ) {\n            return 'Midnight - 23-02';          \n        }\n    } catch(e) {\n    }\n    return;\n}"
+                    }
+                ],
+                "fingerprint": "1560324243533",
+                "formatValue": {}
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "45",
+                "name": "MMFW - TRANSFORM - LU - Link Type",
+                "type": "smm",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "input",
+                        "value": "{{MMFW - VALUE - Element - Click Protocol}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "map",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "mailto"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Email Link"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "tel"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Phone Number Link"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1559064625536"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "18",
+                "name": "MMFW - TRANSFORM - LU - WeekdayNum",
+                "type": "smm",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "input",
+                        "value": "{{MMFW - VALUE - CJ - WeekdayNum}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "map",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "0"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Weekend"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Weekday"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Weekday"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Weekday"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "4"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Weekday"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "5"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Weekday"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "6"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Weekend"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1560324237773",
+                "formatValue": {}
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "28",
+                "name": "MMFW - TRANSFORM - LU - YouTube Events",
+                "type": "smm",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "input",
+                        "value": "{{Video Status}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "{{Video Status}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "map",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "start"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Start playing"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "pause"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Pause"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "buffering"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Buffering"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "progress"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Reached {{Video Percent}}%"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "complete"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Reached the end"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1560324222034",
+                "formatValue": {}
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "2",
+                "name": "MMFW - VALUE - CJ - Click File Extension",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\n  \n  try {\n    \n    var e = {{Click Element}}.pathname.split('.');\n    \n    return e.length > 1 ? e.pop().toUpperCase() : 'HTML';\n  \n  } catch(e) {}\n\n}"
+                    }
+                ],
+                "fingerprint": "1528571247619"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "23",
+                "name": "MMFW - VALUE - CJ - Click Filename",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\n  \n  try {\n    \n    return {{Click Element}}.pathname.split('/').pop();\n    \n  } catch(e) {}\n  \n}"
+                    }
+                ],
+                "fingerprint": "1528571247649"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "24",
+                "name": "MMFW - VALUE - CJ - Click URL No Protocol",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\n  \n  if ({{Click URL}}) {\n   \n    return {{Click URL}}.split(':')[1];\n    \n  }\n  \n}"
+                    }
+                ],
+                "fingerprint": "1528571247650"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "38",
+                "name": "MMFW - VALUE - CJ - ClientID",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\n  try {\n    var trackers = ga.getAll();\n    var i, len;\n    for (i = 0, len = trackers.length; i < len; i += 1) {\n      if (trackers[i].get('trackingId') === {{a - ACCOUNT_GA_TRACKING_ID}}) {\n        return trackers[i].get('clientId');\n      }\n    }\n  } catch(e) {}  \n  return 'false';\n}"
+                    }
+                ],
+                "fingerprint": "1559064625497"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "4",
+                "name": "MMFW - VALUE - CJ - Page Domain Name",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\n  \n  return {{Page Hostname}}.match(/[^.]*\\.[^.]{2,3}(?:\\.[^.]{2,3})?$/)[0];\n\n}"
+                    }
+                ],
+                "fingerprint": "1528571247621"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "19",
+                "name": "MMFW - VALUE - CJ - SessionID",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\n    return new Date().getTime() + '.' + Math.random().toString(36).substring(5);\n}"
+                    }
+                ],
+                "fingerprint": "1528571247644"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "16",
+                "name": "MMFW - VALUE - CJ - Timestamp",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\n    // Get local time as ISO string with offset at the end\n    var now = new Date();\n    var tzo = -now.getTimezoneOffset();\n    var dif = tzo >= 0 ? '+' : '-';\n    var pad = function(num) {\n        var norm = Math.abs(Math.floor(num));\n        return (norm < 10 ? '0' : '') + norm;\n    };\n    return now.getFullYear() \n        + '-' + pad(now.getMonth()+1)\n        + '-' + pad(now.getDate())\n        + 'T' + pad(now.getHours())\n        + ':' + pad(now.getMinutes()) \n        + ':' + pad(now.getSeconds())\n        + '.' + pad(now.getMilliseconds())\n        + dif + pad(tzo / 60) \n        + ':' + pad(tzo % 60);\n}"
+                    }
+                ],
+                "fingerprint": "1528571247642"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "17",
+                "name": "MMFW - VALUE - CJ - WeekdayNum",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\n    try {\n        var d = new Date();\n        var n = d.getDay();\n        return n;\n    } catch(e) {\n    }\nreturn;\n}"
+                    }
+                ],
+                "fingerprint": "1528571247642"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "35",
+                "name": "MMFW - VALUE - DL - Engagement Timer Seconds",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "attributes.counter"
+                    }
+                ],
+                "fingerprint": "1559064625487"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "3",
+                "name": "MMFW - VALUE - Element - Click Hostname",
+                "type": "aev",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "stripWww",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "component",
+                        "value": "HOST"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "varType",
+                        "value": "URL"
+                    }
+                ],
+                "fingerprint": "1528571247620"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "1",
+                "name": "MMFW - VALUE - Element - Click Protocol",
+                "type": "aev",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "component",
+                        "value": "PROTOCOL"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "varType",
+                        "value": "URL"
+                    }
+                ],
+                "fingerprint": "1528571247617"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "37",
+                "name": "a - ACCOUNT_GA_TRACKING_ID",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "UA-XYZ-x"
+                    }
+                ],
+                "fingerprint": "1560324662772",
+                "formatValue": {}
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "36",
+                "name": "a - CONFIG - ABR",
+                "type": "smm",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "input",
+                        "value": "{{MMFW - VALUE - DL - Engagement Timer Seconds}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "afterabr"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "map",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "120"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "superabr"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "75"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "afterabr"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "60"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "afterabr"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "45"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "abr"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "30"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "hit"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "15"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "hit"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1560324152297",
+                "formatValue": {}
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "46",
+                "name": "a - CONFIG_Enter Your Domains",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "domain1.com,sub.domain2.com"
+                    }
+                ],
+                "fingerprint": "1560324778781",
+                "formatValue": {}
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "variableId": "10",
+                "name": "a - CONFIG_Scroll Depth Goal",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "75"
+                    }
+                ],
+                "fingerprint": "1560324650001",
+                "formatValue": {}
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "EVENT",
+                "name": "Event"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "CLICK_ELEMENT",
+                "name": "Click Element"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "CLICK_CLASSES",
+                "name": "Click Classes"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "CLICK_ID",
+                "name": "Click ID"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "CLICK_TARGET",
+                "name": "Click Target"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "CLICK_URL",
+                "name": "Click URL"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "CLICK_TEXT",
+                "name": "Click Text"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "FORM_ELEMENT",
+                "name": "Form Element"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "FORM_CLASSES",
+                "name": "Form Classes"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "FORM_ID",
+                "name": "Form ID"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "FORM_TARGET",
+                "name": "Form Target"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "FORM_URL",
+                "name": "Form URL"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "FORM_TEXT",
+                "name": "Form Text"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "ERROR_MESSAGE",
+                "name": "Error Message"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "ERROR_URL",
+                "name": "Error URL"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "ERROR_LINE",
+                "name": "Error Line"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "CONTAINER_VERSION",
+                "name": "Container Version"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "DEBUG_MODE",
+                "name": "Debug Mode"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "RANDOM_NUMBER",
+                "name": "Random Number"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "CONTAINER_ID",
+                "name": "Container ID"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "HTML_ID",
+                "name": "HTML ID"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "ENVIRONMENT_NAME",
+                "name": "Environment Name"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "VIDEO_URL",
+                "name": "Video URL"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "VIDEO_TITLE",
+                "name": "Video Title"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "VIDEO_DURATION",
+                "name": "Video Duration"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "VIDEO_PERCENT",
+                "name": "Video Percent"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "VIDEO_VISIBLE",
+                "name": "Video Visible"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "VIDEO_STATUS",
+                "name": "Video Status"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "VIDEO_CURRENT_TIME",
+                "name": "Video Current Time"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "SCROLL_DEPTH_THRESHOLD",
+                "name": "Scroll Depth Threshold"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "SCROLL_DEPTH_UNITS",
+                "name": "Scroll Depth Units"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "SCROLL_DEPTH_DIRECTION",
+                "name": "Scroll Direction"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "ELEMENT_VISIBILITY_RATIO",
+                "name": "Percent Visible"
+            },
+            {
+                "accountId": "2026468171",
+                "containerId": "9223705",
+                "type": "ELEMENT_VISIBILITY_TIME",
+                "name": "On-Screen Duration"
+            }
+        ],
+        "fingerprint": "0",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/2026468171/containers/9223705/versions/0?apiLink=version"
+    }
+}
